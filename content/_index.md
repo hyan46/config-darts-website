@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Detecting Anomalies in Real-Time Survelliance
       image:
         filename: welcome.jpg
       text: |
