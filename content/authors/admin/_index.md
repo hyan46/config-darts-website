@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Sarah Holte
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Sarah
+last_name: Holte
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Mathematician/Biostatistician
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Fred Hutch Cancer Center and U of Washington
     url: ''
 
 # Short bio (displayed in user profile at end of posts)

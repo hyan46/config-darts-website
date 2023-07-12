@@ -36,6 +36,22 @@
     </item>
     
     <item>
+      <title>Methods</title>
+      <link>https://hyan46.github.io/config-darts-website/current/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/current/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods</title>
+      <link>https://hyan46.github.io/config-darts-website/methods/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>People</title>
       <link>https://hyan46.github.io/config-darts-website/people/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
@@ -44,11 +60,12 @@
     </item>
     
     <item>
-      <title>Tour</title>
-      <link>https://hyan46.github.io/config-darts-website/tour/</link>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/tour/</guid>
-      <description></description>
+      <title>Crime in NYC</title>
+      <link>https://hyan46.github.io/config-darts-website/past/crime-nyc/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/past/crime-nyc/</guid>
+      <description>&lt;p&gt;Our DARTS methodology has been used in identifying crime hotspots in New York City&lt;/p&gt;
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -60,6 +77,15 @@
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
 &lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
 &lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>COVID in WA</title>
+      <link>https://hyan46.github.io/config-darts-website/past/covid-wa/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/past/covid-wa/</guid>
+      <description>&lt;p&gt;Our DARTS methodology has been used in detecting COVID hotspots in Washington state.&lt;/p&gt;
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/02664763.2022.2117288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.tandfonline.com/doi/full/10.1080/02664763.2022.2117288&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -83,10 +109,10 @@
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/journal-article/</guid>
+      <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -97,10 +123,24 @@
     </item>
     
     <item>
-      <title>An example conference paper</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/conference-paper/</guid>
+      <title>An example journal article</title>
+      <link>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/crime/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/crime/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
