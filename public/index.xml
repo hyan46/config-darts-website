@@ -36,7 +36,7 @@
     </item>
     
     <item>
-      <title>Methods</title>
+      <title>Current</title>
       <link>https://hyan46.github.io/config-darts-website/current/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/current/</guid>
@@ -65,6 +65,16 @@
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/past/crime-nyc/</guid>
       <description>&lt;p&gt;Our DARTS methodology has been used in identifying crime hotspots in New York City&lt;/p&gt;
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gonorrhea in WA</title>
+      <link>https://hyan46.github.io/config-darts-website/past/gonorrhea/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/past/gonorrhea/</guid>
+      <description>&lt;p&gt;Our DARTS methodology has been used in identifying the presence of hotspots of gonorrhea infections.&lt;/p&gt;
+&lt;!-- ![graphs of the US&#39;s rate of gonorrhea over time in different areas](US_over_time_gon.png &#34;Tensor Decomposition for Anomaly Detection with Gonorrhea&#34;) --&gt;
 &lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -123,10 +133,10 @@
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</link>
+      <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/crime/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/crime/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -137,10 +147,10 @@
     </item>
     
     <item>
-      <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/crime/</link>
+      <title>Rapid Detection of Hot-Spots via Tensor Decomposition with Applications to Crime Rate Data</title>
+      <link>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/crime/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
