@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News | Detecting Anomalies in Real Time Survelliance</title>
+    <title>Previous Projects | Detecting Anomalies in Real Time Survelliance</title>
     <link>https://hyan46.github.io/config-darts-website/past/</link>
       <atom:link href="https://hyan46.github.io/config-darts-website/past/index.xml" rel="self" type="application/rss+xml" />
-    <description>Latest News</description>
+    <description>Previous Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hyan46.github.io/config-darts-website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Latest News</title>
+      <title>Previous Projects</title>
       <link>https://hyan46.github.io/config-darts-website/past/</link>
     </image>
     
@@ -18,6 +18,16 @@
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/past/crime-nyc/</guid>
       <description>&lt;p&gt;Our DARTS methodology has been used in identifying crime hotspots in New York City&lt;/p&gt;
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gonorrhea in WA</title>
+      <link>https://hyan46.github.io/config-darts-website/past/gonorrhea/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/past/gonorrhea/</guid>
+      <description>&lt;p&gt;Our DARTS methodology has been used in identifying the presence of hotspots of gonorrhea infections.&lt;/p&gt;
+&lt;!-- ![graphs of the US&#39;s rate of gonorrhea over time in different areas](US_over_time_gon.png &#34;Tensor Decomposition for Anomaly Detection with Gonorrhea&#34;) --&gt;
 &lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
