@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: July 12, 2023 --><html lang="en-us" >
+<!-- Last Published: August 9, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -262,7 +262,7 @@
 
 
 
-  <meta name="author" content="Sarah Holte" />
+  <meta name="author" content="Hao Yan" />
 
 
 
@@ -714,6 +714,16 @@
       <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
 
         
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
         
           
         
@@ -1389,22 +1399,23 @@
   
   
     
-    <a href="/config-darts-website/past/crime-nyc/" >
+    <a href="/config-darts-website/past/crime-us/" >
       <div class="img-hover-zoom">
-        <img src="/config-darts-website/past/crime-nyc/featured_hu41e659ab6af0531c3256c040ac7c94bf_3117862_808x455_fill_q75_h2_lanczos_top.webp" height="455" width="808"
-            class="article-banner" alt="Crime in NYC" loading="lazy">
+        <img src="/config-darts-website/past/crime-us/featured_hu09624313b745448cee54ebd5801dcb68_136935_808x455_fill_q75_h2_lanczos_top.webp" height="455" width="808"
+            class="article-banner" alt="Crime in US" loading="lazy">
       </div>
     </a>
   
 
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/config-darts-website/past/crime-nyc/" >Crime in NYC</a>
+    <a href="/config-darts-website/past/crime-us/" >Crime in US</a>
   </div>
 
   
-  <a href="/config-darts-website/past/crime-nyc/"  class="summary-link">
+  <a href="/config-darts-website/past/crime-us/"  class="summary-link">
     <div class="article-style">
-      <p><p>Our DARTS methodology has been used in identifying crime hotspots in New York City</p></p>
+      <p><p>Our DARTS methodology has been used in identifying how crime hotspots have emerged throughout the US over time.</p>
+<p>Abstract: We propose an efficient statistical method (denoted as SSR-Tensor) to robustly and quickly detect hot-spots that are sparse and temporal-consistent in a spatial-temporal dataset through the tensor decomposition. Our main idea is to first build an SSR model to decompose the tensor data into a Smooth global trend mean, Sparse local hot-spots and Residuals. Next, tensor decomposition is utilized as follows: basis are introduced to describe within-dimension correlation and tensor products are used for between-dimension interaction. Then, a combination of LASSO and fused LASSO is used to estimate the model parameters, where an efficient recursive estimation procedure is developed based on the large-scale convex optimization, where we first transform the general LASSO optimization into regular LASSO optimization and apply FISTA to solve it with the fastest convergence rate. Finally, a CUSUM procedure is applied to detect when and where the hot-spot event occurs. We compare the performance of the proposed method in a numerical simulation and a real-world dataset, which is a collection of three types of crime rates for U.S. mainland states during the year 1965-2014. In both cases, the proposed SSR-Tensor is able to achieve the fast detection and accurate localization of the hot-spots.</p></p>
     </div>
   </a>
   
@@ -1472,21 +1483,22 @@
     
     <a href="/config-darts-website/past/gonorrhea/" >
       <div class="img-hover-zoom">
-        <img src="/config-darts-website/past/gonorrhea/featured_huc72c599563d93595b51cd6c91548f7d1_244909_808x455_fill_q75_h2_lanczos_top_3.webp" height="455" width="808"
-            class="article-banner" alt="Gonorrhea in WA" loading="lazy">
+        <img src="/config-darts-website/past/gonorrhea/featured_hu0556689530a71ccc49576bf22328e914_56749_808x455_fill_q75_h2_lanczos_top.webp" height="455" width="808"
+            class="article-banner" alt="Gonorrhea in the US" loading="lazy">
       </div>
     </a>
   
 
   <div class="section-subheading article-title mb-1 mt-3">
-    <a href="/config-darts-website/past/gonorrhea/" >Gonorrhea in WA</a>
+    <a href="/config-darts-website/past/gonorrhea/" >Gonorrhea in the US</a>
   </div>
 
   
   <a href="/config-darts-website/past/gonorrhea/"  class="summary-link">
     <div class="article-style">
       <p><p>Our DARTS methodology has been used in identifying the presence of hotspots of gonorrhea infections.</p>
-<!-- ![graphs of the US's rate of gonorrhea over time in different areas](US_over_time_gon.png "Tensor Decomposition for Anomaly Detection with Gonorrhea") --></p>
+<!-- ![graphs of the US's rate of gonorrhea over time in different areas](US_over_time_gon.png "Tensor Decomposition for Anomaly Detection with Gonorrhea") -->
+<p>Abstract: In many bio-surveillance and healthcare applications, data sources are measured from many spatial locations repeatedly over time, say, daily/weekly/monthly. In these applications, we are typically interested in detecting hot-spots, which are defined as some structured outliers that are sparse over the spatial domain but persistent over time. In this paper, we propose a tensor decomposition method to detect when and where the hot-spots occur. Our proposed methods represent the observed raw data as a three-dimensional tensor including a circular time dimension for daily/weekly/monthly patterns, and then decompose the tensor into three components: smooth global trend, local hot-spots, and residuals. A combination of LASSO and fused LASSO is used to estimate the model parameters, and a CUSUM procedure is applied to detect when and where the hot-spots might occur. The usefulness of our proposed methodology is validated through numerical simulation and a real-world dataset in the weekly number of gonorrhea cases from $2006$ to $2018$ for $50$ states in the United States.</p></p>
     </div>
   </a>
   
@@ -1567,7 +1579,8 @@
   
   <a href="/config-darts-website/past/covid-wa/"  class="summary-link">
     <div class="article-style">
-      <p><p>Our DARTS methodology has been used in detecting COVID hotspots in Washington state.</p></p>
+      <p><p>Our DARTS methodology has been used in detecting COVID hotspots in Washington state.</p>
+<p>Abstract: In this paper, we present an efficient statistical method (denoted as ‘Adaptive Resources Allocation CUSUM’) to robustly and efficiently detect the hotspot with limited sampling resources. Our main idea is to combine the multi-arm bandit (MAB) and change-point detection methods to balance the exploration and exploitation of resource allocation for hotspot detection. Further, a Bayesian weighted update is used to update the posterior distribution of the infection rate. Then, the upper confidence bound (UCB) is used for resource allocation and planning. Finally, CUSUM monitoring statistics to detect the change point as well as the change location. For performance evaluation, we compare the performance of the proposed method with several benchmark methods in the literature and showed the proposed algorithm is able to achieve a lower detection delay and higher detection precision. Finally, this method is applied to hotspot detection in a real case study of county-level daily positive COVID-19 cases in Washington State WA) and demonstrates the effectiveness with very limited distributed samples.</p></p>
     </div>
   </a>
   
@@ -1926,6 +1939,18 @@
 
 
 
+
+  
+    
+      
+      <iframe
+    src="https://30days.streamlit.app/?embed=true"
+    height="450"
+    style="width:100%;border:none;"
+></iframe>
+      
+    
+  
 
 
 
