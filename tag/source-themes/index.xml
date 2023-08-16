@@ -14,18 +14,46 @@
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/preprint/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/preprint/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/preprint/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/aposcdi/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/aposcdi/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/gonorrhea/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/gonorrhea/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/poisson/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/poisson/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -37,9 +65,9 @@
     
     <item>
       <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/crime/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/crime/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

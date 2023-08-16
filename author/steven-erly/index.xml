@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steven Erly | Detecting Anomalies in Real Time Survelliance</title>
+    <link>https://hyan46.github.io/config-darts-website/author/steven-erly/</link>
+      <atom:link href="https://hyan46.github.io/config-darts-website/author/steven-erly/index.xml" rel="self" type="application/rss+xml" />
+    <description>Steven Erly</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://hyan46.github.io/config-darts-website/author/steven-erly/avatar_hu2450de7483549577ffa071e17b054246_54719_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Steven Erly</title>
+      <link>https://hyan46.github.io/config-darts-website/author/steven-erly/</link>
+    </image>
+    
+  </channel>
+</rss>

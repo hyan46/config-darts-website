@@ -30,7 +30,7 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/past/crime-nyc/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/past/crime-us/</loc>
     <lastmod>2020-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -62,7 +62,11 @@
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/publication/preprint/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/author/admin/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/publication/old_pub/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -75,10 +79,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hyan46.github.io/config-darts-website/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/author/sarah-holte/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -98,7 +98,15 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/publication/old_pub/aposcdi/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/publication/old_pub/gonorrhea/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/publication/old_pub/poisson/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -106,7 +114,11 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/publication/crime/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/author/hao-yanb/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -126,11 +138,15 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/sarah-holtec/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://hyan46.github.io/config-darts-website/author/yajun-mei/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/author/yjiuyun-hu/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/author/yajun-meia/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -138,13 +154,32 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/yujie-zhaoa/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://hyan46.github.io/config-darts-website/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/author/alice-wu-%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hyan46.github.io/config-darts-website/categories/</loc>
+    <loc>https://hyan46.github.io/config-darts-website/author/hao-yan/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/joshua-herbeck/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/roxanne-kerani/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/sarah-holte/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/steven-erly/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://hyan46.github.io/config-darts-website/author/yajun-mei/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

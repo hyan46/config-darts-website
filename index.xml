@@ -56,26 +56,37 @@
       <link>https://hyan46.github.io/config-darts-website/people/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/people/</guid>
-      <description></description>
+      <description>&lt;p&gt;Sarah Holte, PhD. Mathematician/Biostatistician. Fred Hutch Cancer Center and U of
+Washington.&lt;/p&gt;
+&lt;p&gt;Roxanne Kerani, PhD. Epidemiologist and Public Health Scientist. U of Washington&lt;/p&gt;
+&lt;p&gt;Hao Yan, PhD. Industrial Engineering Statistics, School of Computing, Informatics, and Decision
+Systems Engineering, Arizona State University.&lt;/p&gt;
+&lt;p&gt;Yajun Mei, PhD. Industrial and Systems Engineering, Georgia Institute of Technology&lt;/p&gt;
+&lt;p&gt;Joshua Herbeck, PhD. Phylogenetics Bill and Malinda Gates Foundation.&lt;/p&gt;
+&lt;p&gt;Steven Erly, PhD. Epidemiology and Surveillance, WA DOH State.&lt;/p&gt;
+&lt;p&gt;possibly additional students? may be working on deep learning&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Crime in NYC</title>
-      <link>https://hyan46.github.io/config-darts-website/past/crime-nyc/</link>
+      <title>Crime in US</title>
+      <link>https://hyan46.github.io/config-darts-website/past/crime-us/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/past/crime-nyc/</guid>
-      <description>&lt;p&gt;Our DARTS methodology has been used in identifying crime hotspots in New York City&lt;/p&gt;
+      <guid>https://hyan46.github.io/config-darts-website/past/crime-us/</guid>
+      <description>&lt;p&gt;Our DARTS methodology has been used in identifying how crime hotspots have emerged throughout the US over time.&lt;/p&gt;
+&lt;p&gt;Abstract: We propose an efficient statistical method (denoted as SSR-Tensor) to robustly and quickly detect hot-spots that are sparse and temporal-consistent in a spatial-temporal dataset through the tensor decomposition. Our main idea is to first build an SSR model to decompose the tensor data into a Smooth global trend mean, Sparse local hot-spots and Residuals. Next, tensor decomposition is utilized as follows: basis are introduced to describe within-dimension correlation and tensor products are used for between-dimension interaction. Then, a combination of LASSO and fused LASSO is used to estimate the model parameters, where an efficient recursive estimation procedure is developed based on the large-scale convex optimization, where we first transform the general LASSO optimization into regular LASSO optimization and apply FISTA to solve it with the fastest convergence rate. Finally, a CUSUM procedure is applied to detect when and where the hot-spot event occurs. We compare the performance of the proposed method in a numerical simulation and a real-world dataset, which is a collection of three types of crime rates for U.S. mainland states during the year 1965-2014. In both cases, the proposed SSR-Tensor is able to achieve the fast detection and accurate localization of the hot-spots.&lt;/p&gt;
 &lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Gonorrhea in WA</title>
+      <title>Gonorrhea in the US</title>
       <link>https://hyan46.github.io/config-darts-website/past/gonorrhea/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/past/gonorrhea/</guid>
       <description>&lt;p&gt;Our DARTS methodology has been used in identifying the presence of hotspots of gonorrhea infections.&lt;/p&gt;
 &lt;!-- ![graphs of the US&#39;s rate of gonorrhea over time in different areas](US_over_time_gon.png &#34;Tensor Decomposition for Anomaly Detection with Gonorrhea&#34;) --&gt;
-&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Abstract: In many bio-surveillance and healthcare applications, data sources are measured from many spatial locations repeatedly over time, say, daily/weekly/monthly. In these applications, we are typically interested in detecting hot-spots, which are defined as some structured outliers that are sparse over the spatial domain but persistent over time. In this paper, we propose a tensor decomposition method to detect when and where the hot-spots occur. Our proposed methods represent the observed raw data as a three-dimensional tensor including a circular time dimension for daily/weekly/monthly patterns, and then decompose the tensor into three components: smooth global trend, local hot-spots, and residuals. A combination of LASSO and fused LASSO is used to estimate the model parameters, and a CUSUM procedure is applied to detect when and where the hot-spots might occur. The usefulness of our proposed methodology is validated through numerical simulation and a real-world dataset in the weekly number of gonorrhea cases from $2006$ to $2018$ for $50$ states in the United States.&lt;/p&gt;
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2019/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2019/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -95,6 +106,7 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/past/covid-wa/</guid>
       <description>&lt;p&gt;Our DARTS methodology has been used in detecting COVID hotspots in Washington state.&lt;/p&gt;
+&lt;p&gt;Abstract: In this paper, we present an efficient statistical method (denoted as ‘Adaptive Resources Allocation CUSUM’) to robustly and efficiently detect the hotspot with limited sampling resources. Our main idea is to combine the multi-arm bandit (MAB) and change-point detection methods to balance the exploration and exploitation of resource allocation for hotspot detection. Further, a Bayesian weighted update is used to update the posterior distribution of the infection rate. Then, the upper confidence bound (UCB) is used for resource allocation and planning. Finally, CUSUM monitoring statistics to detect the change point as well as the change location. For performance evaluation, we compare the performance of the proposed method with several benchmark methods in the literature and showed the proposed algorithm is able to achieve a lower detection delay and higher detection precision. Finally, this method is applied to hotspot detection in a real case study of county-level daily positive COVID-19 cases in Washington State WA) and demonstrates the effectiveness with very limited distributed samples.&lt;/p&gt;
 &lt;p&gt;Publications: &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/02664763.2022.2117288&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.tandfonline.com/doi/full/10.1080/02664763.2022.2117288&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
@@ -111,18 +123,46 @@
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/preprint/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/preprint/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/preprint/</guid>
       <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/aposcdi/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/gonorrhea/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/aposcdi/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/gonorrhea/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/gonorrhea/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Adaptive Resources Allocation CUSUM for Binomial Count Data Monitoring with Application to COVID-19 Hotspot Detection</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/poisson/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/poisson/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -134,9 +174,9 @@
     
     <item>
       <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
-      <link>https://hyan46.github.io/config-darts-website/publication/crime/</link>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hyan46.github.io/config-darts-website/publication/crime/</guid>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
