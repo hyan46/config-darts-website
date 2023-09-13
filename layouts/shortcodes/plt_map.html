@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+<h2>Static Map:</h2>
+<iframe id="plt-map" height="400" width="600" src="./year2021.html"></iframe>
+
+<py-config>
+    packages = [
+        "pandas",
+        "matplotlib",
+        "geopandas",
+        "folium",
+        "mapclassify",
+        "pathlib"
+    ]
+    plugins = [
+      "https://pyscript.net/latest/plugins/python/py_tutor.py"
+    ]
+    [[fetch]]
+    files = ["./plt_hello.py", "./plt_year_only.py", "./HIVE_map.pkl", "./zipcode_map.pkl"]
+</py-config>
+<py-script>
+
+    from plt_year_only import create_map
+    import pandas as pd
+    from js import document, console
+
+    df_HIV_maps = pd.read_pickle("./HIVE_map.pkl")
+    df_zipcodes = pd.read_pickle("./zipcode_map.pkl")
+    display(create_map(2021, 2022, df_HIV_maps, df_zipcodes), target="display-write", append=False)
+    min_slider = document.getElementById("min-slider")
+    max_slider = document.getElementById("max-slider")
+
+    display_div = document.getElementById("display-write")
+    min_range = document.getElementById("min-range")
+    max_range = document.getElementById("max-range")
+
+    def write_to_page(min, max):
+        manual_div = Element("manual-write")
+        manual_div.element.innerText = "Hello World"
+        printf(min)
+        printf(max)
+    
+    def slider_map():
+        print(min_slider.value)
+        print(max_slider.value)
+        refresh_map(min_slider.value, max_slider.value)
+
+    def refresh_map(year_start, year_end):
+        min_range.innerHTML = year_start
+        max_range.innerHTML = year_end
+        display_div.removeChild(display_div.firstElementChild)
+        display(create_map(year_start, year_end, df_HIV_maps, df_zipcodes), target="display-write", append=False)
+</py-script>
+
+<div id="manual-write"></div>
+<h2>Interactive Map:</h2>
+<p>Current range: <span id="min-range"></span> to <span id="max-range"></span> </p>
+<div id="display-write"></div>
+<!-- <button py-click="write_to_page()" id="manual">Say Hello</button> -->
+<button py-click="slider_map()" id="manual">Update Map</button>
+<div>
+    <input type="range" id="min-slider" name="min-slider" class="slider" min="2010" max="2021" value="2011"/>
+    <label for="year-min">Minimum Year: <span id="min-num">2010</span> </label>
+    <input type="range" id="max-slider" name="max-slider" class="slider" min="2010" max="2022" value="2020"/>
+    <label for="year-max">Maximum Year: <span id="max-num">2010</span> </label>
+</div>
+
+<script>
+    var minSlider = document.getElementById("min-slider");
+    var minOutput = document.getElementById("min-num");
+    minOutput.innerHTML = minSlider.value;
+
+    minSlider.oninput = function() {
+        minOutput.innerHTML = this.value;
+    }
+
+    var maxSlider = document.getElementById("max-slider");
+    var maxOutput = document.getElementById("max-num");
+    maxOutput.innerHTML = maxSlider.value;
+
+    maxSlider.oninput = function() {
+        maxOutput.innerHTML = this.value;
+    }
+</script>
+
+<!-- <button py-click="create_html" id="manual">Say Hello</button> -->

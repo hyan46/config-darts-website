@@ -40,7 +40,43 @@
       <link>https://hyan46.github.io/config-darts-website/current/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/current/</guid>
-      <description></description>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://pyscript.net/latest/pyscript.css&#34; /&gt;
+&lt;script defer src=&#34;https://pyscript.net/latest/pyscript.js&#34;&gt;&lt;/script&gt;
+&lt;py-config&gt;
+    plugins = [
+      &#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34;
+    ]
+&lt;/py-config&gt;
+&lt;section class=&#34;pyscript&#34;&gt;
+    Hello world! &lt;br&gt;
+    This is the current date and time, as computed by Python:
+    &lt;py-script&gt;
+        from datetime import datetime
+        now = datetime.now()
+        display(now.strftime(&#34;%m/%d/%Y, %H:%M:%S&#34;))
+    &lt;/py-script&gt;
+&lt;/section&gt;
+&lt;!-- &lt;div id=&#34;demo&#34;&gt;
+  &lt;h2&gt;Let AJAX change this text&lt;/h2&gt;
+  &lt;button type=&#34;button&#34; onclick=&#34;loadPY()&#34;&gt;Change Content&lt;/button&gt;
+  &lt;iframe src=&#34;https://hyan46.github.io/config-darts-website/public/yearggg2021.html&#34; width=&#34;100%&#34; height=&#34;120&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt; --&gt;
+&lt;script&gt;
+//   $.ajax({
+//    url: &#34;/path/to/your/script&#34;,
+//    success: function(response) {
+//      // here you do whatever you want with the response variable
+//    }
+// });
+// function loadPY() {
+//   $.ajax({
+//     url: &#34;/path/to/your/script&#34;,
+//     success: loadPY(response) {
+//       document.getElementById(&#34;demo&#34;).innerHTML = this.responseText;
+//     }
+//  });
+// }
+&lt;/script&gt;</description>
     </item>
     
     <item>
@@ -75,7 +111,12 @@ Systems Engineering, Arizona State University.&lt;/p&gt;
       <guid>https://hyan46.github.io/config-darts-website/past/crime-us/</guid>
       <description>&lt;p&gt;Our DARTS methodology has been used in identifying how crime hotspots have emerged throughout the US over time.&lt;/p&gt;
 &lt;p&gt;Abstract: We propose an efficient statistical method (denoted as SSR-Tensor) to robustly and quickly detect hot-spots that are sparse and temporal-consistent in a spatial-temporal dataset through the tensor decomposition. Our main idea is to first build an SSR model to decompose the tensor data into a Smooth global trend mean, Sparse local hot-spots and Residuals. Next, tensor decomposition is utilized as follows: basis are introduced to describe within-dimension correlation and tensor products are used for between-dimension interaction. Then, a combination of LASSO and fused LASSO is used to estimate the model parameters, where an efficient recursive estimation procedure is developed based on the large-scale convex optimization, where we first transform the general LASSO optimization into regular LASSO optimization and apply FISTA to solve it with the fastest convergence rate. Finally, a CUSUM procedure is applied to detect when and where the hot-spot event occurs. We compare the performance of the proposed method in a numerical simulation and a real-world dataset, which is a collection of three types of crime rates for U.S. mainland states during the year 1965-2014. In both cases, the proposed SSR-Tensor is able to achieve the fast detection and accurate localization of the hot-spots.&lt;/p&gt;
-&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Publications: &lt;a href=&#34;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/&lt;/a&gt;&lt;/p&gt;
+&lt;iframe
+    src=&#34;https://30days.streamlit.app/?embed=true&#34;
+    height=&#34;450&#34;
+    style=&#34;width:100%;border:none;&#34;
+&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
@@ -206,6 +247,99 @@ Systems Engineering, Arizona State University.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hyan46.github.io/config-darts-website/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://hyan46.github.io/config-darts-website/short/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/short/</guid>
+      <description>&lt;p&gt;Hello there!&lt;/p&gt;
+&lt;div&gt;
+    Hello world! I am a shortcode.
+&lt;/div&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://pyscript.net/latest/pyscript.css&#34; /&gt;
+&lt;script defer src=&#34;https://pyscript.net/latest/pyscript.js&#34;&gt;&lt;/script&gt;
+
+&lt;iframe id=&#34;plt-map&#34; src=&#34;./year2021.html&#34;&gt;&lt;/iframe&gt;
+
+&lt;py-config&gt;
+    packages = [
+        &#34;pandas&#34;,
+        &#34;matplotlib&#34;,
+        &#34;geopandas&#34;,
+        &#34;folium&#34;,
+        &#34;mapclassify&#34;,
+        &#34;pathlib&#34;
+    ]
+    plugins = [
+      &#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34;
+    ]
+    [[fetch]]
+    files = [&#34;./plt_hello.py&#34;, &#34;./plt_year_only.py&#34;, &#34;./HIVE_map.pkl&#34;, &#34;./zipcode_map.pkl&#34;]
+&lt;/py-config&gt;
+This is the current date and time, as computed by Python
+&lt;py-script&gt;
+
+    
+
+    from plt_year_only import create_map
+    import pandas as pd
+    from js import document, console
+
+    df_HIV_maps = pd.read_pickle(&#34;./HIVE_map.pkl&#34;)
+    df_zipcodes = pd.read_pickle(&#34;./zipcode_map.pkl&#34;)
+    display(create_map(2021, 2022, df_HIV_maps, df_zipcodes))
+    min_slider = document.getElementById(&#34;min-slider&#34;)
+    max_slider = document.getElementById(&#34;max-slider&#34;)
+    
+    
+    def write_to_page(min, max):
+        manual_div = Element(&#34;manual-write&#34;)
+        manual_div.element.innerText = &#34;Hello World&#34;
+        printf(min)
+        printf(max)
+    
+    def slider_map():
+        refresh_map(min_slider.value, max_slider.value)
+
+    def refresh_map(year_start, year_end):
+        display(create_map(year_start, year_end, df_HIV_maps, df_zipcodes))
+&lt;/py-script&gt;
+
+&lt;div id=&#34;manual-write&#34;&gt;&lt;/div&gt;
+
+&lt;button py-click=&#34;slider_map()&#34; id=&#34;manual&#34;&gt;Update Map&lt;/button&gt;
+&lt;div&gt;
+    &lt;input type=&#34;range&#34; id=&#34;min-slider&#34; name=&#34;year-min&#34; class=&#34;slider&#34; min=&#34;2000&#34; max=&#34;2011&#34; /&gt;
+    &lt;label for=&#34;year-min&#34;&gt;Minimum Year: &lt;span id=&#34;min-num&#34;&gt;&lt;/span&gt; &lt;/label&gt;
+    &lt;input type=&#34;range&#34; id=&#34;max-slider&#34; name=&#34;year-max&#34; class=&#34;slider&#34; min=&#34;2000&#34; max=&#34;2011&#34; /&gt;
+    &lt;label for=&#34;year-max&#34;&gt;Maximum Year: &lt;span id=&#34;max-num&#34;&gt;&lt;/span&gt; &lt;/label&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    var minSlider = document.getElementById(&#34;year-min&#34;);
+    var minOutput = document.getElementById(&#34;min-num&#34;);
+    minOutput.innerHTML = slider.value; 
+
+    
+    minSlider.oninput = function() {
+        minOutput.innerHTML = this.value;
+    }
+
+    var maxSlider = document.getElementById(&#34;year-max&#34;);
+    var maxOutput = document.getElementById(&#34;max-num&#34;);
+    maxOutput.innerHTML = slider.value; 
+
+    
+    maxSlider.oninput = function() {
+        maxOutput.innerHTML = this.value;
+    }
+&lt;/script&gt;
+
+
+
+</description>
     </item>
     
   </channel>

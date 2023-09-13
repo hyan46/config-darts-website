@@ -10,18 +10,18 @@ main:
   - name: Current project (HIV)
     url: current
     weight: 20
-  - name: Past projects
+  - name: Past projects # add submenu
     url: past
     weight: 30
-  - name: Future projects
-    url: event
-    weight: 40
+  # - name: Future projects
+  #   url: event
+  #   weight: 40
   - name: Meet the Team
     url: people
-    weight: 50
+    weight: 40
   - name: Publications
     url: publication
-    weight: 60
+    weight: 50
   - name: Contact
     url: contact
-    weight: 70
+    weight: 60
