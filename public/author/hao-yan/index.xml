@@ -5,12 +5,40 @@
     <link>https://hyan46.github.io/config-darts-website/author/hao-yan/</link>
       <atom:link href="https://hyan46.github.io/config-darts-website/author/hao-yan/index.xml" rel="self" type="application/rss+xml" />
     <description>Hao Yan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hyan46.github.io/config-darts-website/author/hao-yan/avatar_hu571d5d9e571acdf90acaa14b93be65a8_7620_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://hyan46.github.io/config-darts-website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Hao Yan</title>
       <link>https://hyan46.github.io/config-darts-website/author/hao-yan/</link>
     </image>
+    
+    <item>
+      <title>Rapid Detection of Hot-Spot by Tensor Decomposition with Application to Weekly Gonorrhea Data</title>
+      <link>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/publication/old_pub/crime/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rapid Detection of Hot-Spots via Tensor Decomposition with Applications to Crime Rate Data</title>
+      <link>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://hyan46.github.io/config-darts-website/www.public.asu.edu/~hyan46/publication/zhao-rapid-2021/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: September 13, 2023 --><html lang="en-us" >
+<!-- Last Published: October 25, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -278,8 +278,7 @@
 
   
 
-<meta name="description" content="Hello there!
-Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#34;,&#34;geopandas&#34;,&#34;folium&#34;,&#34;mapclassify&#34;,&#34;pathlib&#34;]plugins = [&#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34;][[fetch]]files = [&#34;./plt_hello.py&#34;, &#34;./plt_year_only.py&#34;, &#34;./HIVE_map.pkl&#34;, &#34;./zipcode_map.pkl&#34;]This is the current date and time, as computed by Pythonfrom plt_year_only import create_mapimport pandas as pdfrom js import document, consoledf_HIV_maps = pd." />
+<meta name="description" content="Static Map: packages = [ &#34;pandas&#34;, &#34;matplotlib&#34;, &#34;geopandas&#34;, &#34;folium&#34;, &#34;mapclassify&#34;, &#34;pathlib&#34; ] plugins = [ &#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34; ] [[fetch]] files = [&#34;./plt_hello.py&#34;, &#34;./plt_year_only.py&#34;, &#34;./HIVE_map.pkl&#34;, &#34;./zipcode_map.pkl&#34;] from plt_year_only import create_map import pandas as pd from js import document, console df_HIV_maps = pd." />
 
 
 
@@ -321,9 +320,8 @@ Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#3
 <meta property="twitter:image" content="https://hyan46.github.io/config-darts-website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Detecting Anomalies in Real Time Survelliance" />
 <meta property="og:url" content="https://hyan46.github.io/config-darts-website/short/" />
-<meta property="og:title" content="Hello | Detecting Anomalies in Real Time Survelliance" />
-<meta property="og:description" content="Hello there!
-Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#34;,&#34;geopandas&#34;,&#34;folium&#34;,&#34;mapclassify&#34;,&#34;pathlib&#34;]plugins = [&#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34;][[fetch]]files = [&#34;./plt_hello.py&#34;, &#34;./plt_year_only.py&#34;, &#34;./HIVE_map.pkl&#34;, &#34;./zipcode_map.pkl&#34;]This is the current date and time, as computed by Pythonfrom plt_year_only import create_mapimport pandas as pdfrom js import document, consoledf_HIV_maps = pd." /><meta property="og:image" content="https://hyan46.github.io/config-darts-website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Interactive Map | Detecting Anomalies in Real Time Survelliance" />
+<meta property="og:description" content="Static Map: packages = [ &#34;pandas&#34;, &#34;matplotlib&#34;, &#34;geopandas&#34;, &#34;folium&#34;, &#34;mapclassify&#34;, &#34;pathlib&#34; ] plugins = [ &#34;https://pyscript.net/latest/plugins/python/py_tutor.py&#34; ] [[fetch]] files = [&#34;./plt_hello.py&#34;, &#34;./plt_year_only.py&#34;, &#34;./HIVE_map.pkl&#34;, &#34;./zipcode_map.pkl&#34;] from plt_year_only import create_map import pandas as pd from js import document, console df_HIV_maps = pd." /><meta property="og:image" content="https://hyan46.github.io/config-darts-website/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
   
@@ -350,7 +348,7 @@ Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#3
 
 
   
-  <title>Hello | Detecting Anomalies in Real Time Survelliance</title>
+  <title>Interactive Map | Detecting Anomalies in Real Time Survelliance</title>
 
   
   
@@ -736,7 +734,7 @@ Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#3
   
   
 <div class="article-container pt-3">
-  <h1>Hello</h1>
+  <h1>Interactive Map</h1>
 
   
 
@@ -779,14 +777,15 @@ Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#3
   <div class="article-container">
 
     <div class="article-style">
-      <p>Hello there!</p>
-<div>
+      <!-- Hello there! -->
+<!-- <div>
     Hello world! I am a shortcode.
-</div>
+</div> -->
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
-<iframe id="plt-map" src="./year2021.html"></iframe>
+<h2>Static Map:</h2>
+<iframe id="plt-map" height="400" width="600" src="./year2021.html"></iframe>
 
 <py-config>
     packages = [
@@ -803,10 +802,7 @@ Hello world! I am a shortcode.packages = [&#34;pandas&#34;,&#34;matplotlib&#3
     [[fetch]]
     files = ["./plt_hello.py", "./plt_year_only.py", "./HIVE_map.pkl", "./zipcode_map.pkl"]
 </py-config>
-This is the current date and time, as computed by Python
 <py-script>
-
-    
 
     from plt_year_only import create_map
     import pandas as pd
@@ -814,11 +810,14 @@ This is the current date and time, as computed by Python
 
     df_HIV_maps = pd.read_pickle("./HIVE_map.pkl")
     df_zipcodes = pd.read_pickle("./zipcode_map.pkl")
-    display(create_map(2021, 2022, df_HIV_maps, df_zipcodes))
+    display(create_map(2021, 2022, df_HIV_maps, df_zipcodes), target="display-write", append=False)
     min_slider = document.getElementById("min-slider")
     max_slider = document.getElementById("max-slider")
-    
-    
+
+    display_div = document.getElementById("display-write")
+    min_range = document.getElementById("min-range")
+    max_range = document.getElementById("max-range")
+
     def write_to_page(min, max):
         manual_div = Element("manual-write")
         manual_div.element.innerText = "Hello World"
@@ -826,37 +825,43 @@ This is the current date and time, as computed by Python
         printf(max)
     
     def slider_map():
+        print(min_slider.value)
+        print(max_slider.value)
         refresh_map(min_slider.value, max_slider.value)
 
     def refresh_map(year_start, year_end):
-        display(create_map(year_start, year_end, df_HIV_maps, df_zipcodes))
+        min_range.innerHTML = year_start
+        max_range.innerHTML = year_end
+        display_div.removeChild(display_div.firstElementChild)
+        display(create_map(year_start, year_end, df_HIV_maps, df_zipcodes), target="display-write", append=False)
 </py-script>
 
 <div id="manual-write"></div>
+<h2>Interactive Map:</h2>
+<p>Current range: <span id="min-range"></span> to <span id="max-range"></span> </p>
+<div id="display-write"></div>
 
 <button py-click="slider_map()" id="manual">Update Map</button>
 <div>
-    <input type="range" id="min-slider" name="year-min" class="slider" min="2000" max="2011" />
-    <label for="year-min">Minimum Year: <span id="min-num"></span> </label>
-    <input type="range" id="max-slider" name="year-max" class="slider" min="2000" max="2011" />
-    <label for="year-max">Maximum Year: <span id="max-num"></span> </label>
+    <input type="range" id="min-slider" name="min-slider" class="slider" min="2010" max="2021" value="2011"/>
+    <label for="year-min">Minimum Year: <span id="min-num">2010</span> </label>
+    <input type="range" id="max-slider" name="max-slider" class="slider" min="2010" max="2022" value="2020"/>
+    <label for="year-max">Maximum Year: <span id="max-num">2010</span> </label>
 </div>
 
 <script>
-    var minSlider = document.getElementById("year-min");
+    var minSlider = document.getElementById("min-slider");
     var minOutput = document.getElementById("min-num");
-    minOutput.innerHTML = slider.value; 
+    minOutput.innerHTML = minSlider.value;
 
-    
     minSlider.oninput = function() {
         minOutput.innerHTML = this.value;
     }
 
-    var maxSlider = document.getElementById("year-max");
+    var maxSlider = document.getElementById("max-slider");
     var maxOutput = document.getElementById("max-num");
-    maxOutput.innerHTML = slider.value; 
+    maxOutput.innerHTML = maxSlider.value;
 
-    
     maxSlider.oninput = function() {
         maxOutput.innerHTML = this.value;
     }
@@ -890,7 +895,7 @@ This is the current date and time, as computed by Python
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;text=Hello" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;text=Interactive&#43;Map" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -907,7 +912,7 @@ This is the current date and time, as computed by Python
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;t=Hello" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;t=Interactive&#43;Map" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -926,7 +931,7 @@ This is the current date and time, as computed by Python
         
       
       <li>
-        <a href="mailto:?subject=Hello&amp;body=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Interactive%20Map&amp;body=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -943,7 +948,7 @@ This is the current date and time, as computed by Python
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;title=Hello" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;title=Interactive&#43;Map" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -960,7 +965,7 @@ This is the current date and time, as computed by Python
       
       
       <li>
-        <a href="whatsapp://send?text=Hello%20https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Interactive&#43;Map%20https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +982,7 @@ This is the current date and time, as computed by Python
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;title=Hello" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhyan46.github.io%2Fconfig-darts-website%2Fshort%2F&amp;title=Interactive&#43;Map" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

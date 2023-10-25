@@ -9,9 +9,9 @@ import geopandas as gpd
 
 
 #%%
-def create_map(year_min, year_max, df_HIV_maps, df_zipcodes):
-  # year_min = 2021
-  # year_max = 2022
+def create_map(min, max, df_HIV_maps, df_zipcodes):
+  year_min = int(min)
+  year_max = int(max)
   # df_HIV_maps = pd.read_pickle("./HIVE_map.pkl")
   # df_zipcodes = pd.read_pickle("./zipcode_map.pkl")
   fig, ax = plt.subplots(1, figsize=(50, 50))
